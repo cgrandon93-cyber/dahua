@@ -10,4 +10,8 @@ logger:
 # debugpy:
 
 ffmpeg -i INPUT -an -f null -
+
 stream:
+  ll_hls: true
+  part_duration: 0.75
+  segment_duration: 6
