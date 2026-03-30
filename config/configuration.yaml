@@ -1,4 +1,10 @@
-default_config:ffmpeg:
+default_config: 
+platform: event
+event_type: dahua_event_received
+event_data:
+  name: Cam13
+  Code: VideoMotion
+  action: Start
 
 logger:
   default: info
